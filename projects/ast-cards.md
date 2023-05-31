@@ -21,7 +21,7 @@ The app presents a card and a four- or eight-member party. When you click on a p
 
 The app will highlight your answer in green or red based on whether it’s correct and will highlight all other correct answers in blue.
 
-At the request of another friend, I added a timer to track how long your guesses take, and a tracker for your average guess time. The timer turns red after
+At the request of another friend, I added a timer to track how long your guesses take, and a tracker for your average guess time. The timer turns red after 2.5 seconds to indicate that you have taken longer than one global cooldown window.
 
 ## Technologies Used
 
@@ -31,4 +31,4 @@ At the request of another friend, I added a timer to track how long your guesses
 ## Things I learned
 
 - This project gave me an excellent grip on using state for tracking information. There are a lot of things to track in this app, so having good state management is incredibly important.
-- To create a timer, you can use setInterval to update a time variable in state after an incredibly short interval. In this case, I set it to update every 10ms.
+- To create a timer, you can use `setInterval` to update a time variable in state after an incredibly short interval. In this case, I set it to update every 10ms.
